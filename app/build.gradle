@@ -1,0 +1,113 @@
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.google.gms.google.services)
+}
+
+android {
+    namespace 'com.ezcast.screen.mirroring.totv'
+
+    compileSdk {
+        version = release(36)
+    }
+
+    defaultConfig {
+        applicationId "com.ezcast.screen.mirroring.totv"
+        minSdk 24
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        generatedDensities = []
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+
+            proguardFiles(
+                    getDefaultProguardFile('proguard-android-optimize.txt'),
+                    'proguard-rules.pro'
+            )
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+
+    aaptOptions {
+        additionalParameters "--no-version-vectors"
+    }
+    buildFeatures {
+        viewBinding true
+        buildConfig true
+    }
+}
+
+configurations.all {
+    exclude group: "com.android.support", module: "support-v4"
+}
+
+dependencies {
+
+    // AndroidX
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.activity
+    implementation libs.androidx.constraintlayout
+    implementation libs.androidx.navigation.fragment
+    implementation libs.androidx.navigation.ui
+    implementation libs.androidx.startup.runtime
+
+    // Explicit AndroidX media (replaces support-v4 media)
+    implementation "androidx.media:media:1.6.0"
+
+    // UI / Utils
+    implementation libs.material
+    implementation libs.lottie
+    implementation libs.shimmer
+    implementation libs.sdp.android
+    implementation libs.ssp.android
+    implementation libs.picasso
+    implementation libs.gson
+
+    // Media / Cast
+    implementation libs.exoplayer
+    implementation libs.play.services.cast.framework
+    implementation libs.connect.sdk.android
+
+    // Ads
+    implementation libs.play.services.ads
+    implementation libs.androidx.lifecycle.process
+    implementation libs.firebase.analytics
+
+    // Testing
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.junit
+    androidTestImplementation libs.androidx.espresso.core
+    implementation "com.github.bumptech.glide:glide:4.16.0"
+    annotationProcessor "com.github.bumptech.glide:compiler:4.16.0"
+
+//    implementation 'com.google.android.gms:play-services-ads:24.8.0'
+    implementation libs.billing
+//    implementation project(':nativetemplates')
+    implementation'com.google.android.play:review:2.0.2'
+//    implementation 'com.akexorcist:localization:1.2.11'
+    implementation libs.lottie.v342
+//    implementation 'androidx.lifecycle:lifecycle-process:2.x.x'
+
+
+    
+
+
+
+
+}

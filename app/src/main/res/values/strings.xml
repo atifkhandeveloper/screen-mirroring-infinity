@@ -1,0 +1,87 @@
+<resources>
+    <string name="control_your_smart_tv_using_your_mobile_device_as_a_remote_control_">Control your smart tv using your mobile device as a remote control.</string>
+    <string name="browse_and_access_content_on_your_smart_tv_while_mirroring_or_casting_the_screen_">Browse and access content on your smart tv while mirroring or casting the screen.</string>
+    <string name="conform_delete">Are you sure to want to delete history?</string>
+    <string name="imdb">IMDB</string>
+    <string name="amazon">Amazon</string>
+    <string name="app_name">Screen Mirroring</string>
+    <string name="audio">Audio</string>
+    <string name="audios">Audios</string>
+    <string name="bing">Bing</string>
+    <string name="choose_language">Languages</string>
+    <string name="choose_preferred_language">Choose your preferred Languages</string>
+    <string name="connected">Connected</string>
+    <string name="dailymotion">Dailymotion</string>
+    <string name="delete_history">Delete History</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="dummy">Dummy</string>
+    <string name="eight">8</string>
+    <string name="english">English</string>
+    <string name="google">Google</string>
+   <string name="facebook">Facebook</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="fox">Fox</string>
+   <string name="history">History</string>
+    <string name="mirroring_and_casting">Mirroring and Casting</string>
+    <string name="netflix">Netflix</string>
+    <string name="network_connection_not_found">Network connection not found</string>
+    <string name="nine">9</string>
+    <string name="no_folder_found">No folder found</string>
+    <string name="no_item_found">No item found</string>
+    <string name="not_in_the_list">Not in the list</string>
+    <string name="one">1</string>
+    <string name="our_screen_mirroring_app_will_help_you_stream_phone_to_tv_screen_in_high_quality_fast_simple_share_screen_and_cast_to_tv_or_other_devices">Our Screen Mirroring app will help you stream phone to TV screen in high quality. Fast and Simple! Share screen and Cast to TV or other devices!</string>
+    <string name="paste_your_url_here">Paste your url here</string>
+    <string name="permission_not_granted">Permission not granted</string>
+    <string name="photos">Photos</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="screen_browsing">Screen Browsing</string>
+    <string name="screen_mirroring">Screen Mirroring</string>
+    <string name="search_by_google_or_enter_your_url">Search by Google or enter your URL</string>
+    <string name="select">Select</string>
+    <string name="settings">Settings</string>
+    <string name="seven">7</string>
+    <string name="show_devices">Show Devices</string>
+    <string name="six">6</string>
+    <string name="skip">Skip</string>
+    <string name="soundcloud">Soundcloud</string>
+    <string name="three">3</string>
+    <string name="twitch">Twitch</string>
+    <string name="two">2</string>
+    <string name="universal_remote">Universal Remote</string>
+    <string name="videos">Videos</string>
+    <string name="vimeo">Vimeo</string>
+    <string name="wirelessly_transmit_your_media_files_content_from_your_mobile_device_to_smart_tv_">Wirelessly transmit your media files content from your mobile device to smart tv.</string>
+    <string name="yahoo">Yahoo</string>
+    <string name="youtube">Youtube</string>
+    <string name="zero">0</string>
+    <string name="app_settings">App Settings</string>
+
+
+
+    <string name="other">Other</string>
+    <string name="language">Language</string>
+    <string name="help_support">How to Connect?</string>
+    <string name="share_with_friends">Share with Friends</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="mirroring">Mirroring</string>
+    <string name="high_quality_experience">High Quality Experience</string>
+
+
+    <string name="paste">PASTE</string>
+    <string name="media_cast">Media Cast</string>
+    <string name="images">Images</string>
+
+    <string name="next">Next</string>
+
+    <string name="how_to_connect_q">How to Connect ?</string>
+    <string name="how_to_connect">How to connect?</string>
+    <string name="back">Back</string>
+    <string name="start_mirroring">Start Mirroring</string>
+
+    <string name="step_1_text">Make sure your TV and phone are connected to the same Wi-Fi network.</string>
+    <string name="step_2_text">Enable \'Wireless Display\' or \'Screen Mirroring\' on your TV settings.</string>
+    <string name="step_3_text">Tap the \'Start Mirroring\' button below to find your device.</string>
+
+</resources>
